@@ -1,49 +1,33 @@
-Phishing Simulation and Awareness Campaign — Demo
-Overview
-This is a safe, synthetic demo showcasing a phishing awareness campaign workflow. It demonstrates how phishing simulations combined with targeted awareness training can improve user resilience against social engineering attacks. All data and examples are fully synthetic — no real users, credentials, or sensitive information are included.
+# Phishing Simulation and Awareness Campaign — Demo
 
-Key Features
+## Overview
+This is a **safe, synthetic demo** of a phishing awareness campaign workflow. It demonstrates how phishing simulations combined with targeted awareness training can **improve user resilience** against social engineering attacks.  
+**All data is synthetic** — no real users or credentials are included.
 
-Email Templates: Realistic phishing emails with placeholders, including HR notifications, IT alerts, and incentive-based lures.
+## Key Features
+- **Email Templates:** Realistic phishing emails (HR, IT, incentive lures).  
+- **Training Landing Page:** Safe page to educate users on phishing.  
+- **Engagement Metrics:** 200 synthetic users with pre/post training click behavior.  
+- **Analysis Scripts:** Python scripts to generate metrics and visualizations.  
+- **Reports & Slides:** Example materials demonstrating campaign impact.
 
-Training Landing Page: Safe, interactive page designed to educate users on recognizing phishing attempts.
+## Demo Results (Synthetic)
+- Initial simulated click-through rate: **40%**  
+- Post-training simulated click-through rate: **26%**  
+- Relative reduction: **35%**
 
-Engagement Metrics: Anonymized dataset of 200 synthetic users with pre- and post-training simulated click behavior.
+## Skills Highlighted
+- Phishing simulation planning  
+- Security awareness campaign design  
+- Data analysis & visualization  
+- Reporting & portfolio presentation
 
-Analysis Scripts: Python scripts to generate visualizations and calculate click-rate reduction across control and training cohorts.
+## How to Use
+1. Check email templates in `campaigns/email_templates/`  
+2. Open `analysis/metrics_anonymized.csv`  
+3. Run `scripts/analyze_metrics.py` to reproduce metrics  
+4. Explore `slides/` and `reports/` for example awareness content
 
-Reports & Slides: Example awareness session slides and a summary report showing the campaign’s impact.
-
-Demo Results (Synthetic)
-
-Initial simulated click-through rate: 40%
-
-Post-training simulated click-through rate: 26%
-
-Relative reduction: 35%
-
-Skills Highlighted
-
-Phishing simulation planning
-
-Security awareness campaign design
-
-Data analysis and visualization
-
-Reporting and portfolio presentation
-
-How to Use
-
-Review email templates in campaigns/email_templates/ and the safe landing page in campaigns/landing_pages/.
-
-Open analysis/metrics_anonymized.csv to inspect synthetic user engagement data.
-
-Run scripts/analyze_metrics.py to reproduce metrics and visualizations.
-
-Check slides/ and reports/ for example materials you could use in awareness sessions.
-
-Ethics & Safety
-
-This repository is entirely synthetic and safe for public sharing.
-
-Never run phishing simulations against real users without proper authorization.
+## Ethics & Safety
+- This repo is **fully synthetic and safe** for public sharing.  
+- Do **not** run phishing simulations against real users without authorization.
