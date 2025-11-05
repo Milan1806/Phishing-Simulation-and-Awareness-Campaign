@@ -1,0 +1,5 @@
+Dear {first_name},
+
+Please visit {landing_page} to verify your details.
+
+(This is a simulated demo email.)
